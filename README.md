@@ -1,5 +1,5 @@
 import requests
-from flask import Flask, request, render_template_string
+from flask import Flask, request, render_template_strin
 
 app = Flask(__name__)
 
