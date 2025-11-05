@@ -34,7 +34,7 @@ HTML_TEMPLATE = """
         </div>
     {% endif %}
 </body>
-</html>
+</htmlS>
 """
 
 @app.route("/", methods=["GET", "POST"])
