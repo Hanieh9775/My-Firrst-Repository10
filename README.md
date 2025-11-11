@@ -36,6 +36,7 @@ HTML_TEMPLATE = """
 </body>
 </htmlS>
 """
+<body>
 
 @app.route("/", methods=["GET", "POST"])
 def home():
