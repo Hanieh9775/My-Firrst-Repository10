@@ -23,7 +23,7 @@ HTML_TEMPLATE = """
     <form method="post">
         <input type="text" name="city" placeholder="Enter city name" required>
         <button type="submit">Get Weather</button>
-    </form>
+   
     {% if weather %}
         <div class="card">
             <h2>{{ weather.city }}</h2>
